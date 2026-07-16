@@ -113,3 +113,18 @@ body{
     50%{transform: rotateX(180deg) rotateY(180deg);}
     100%{transform: rotateX(360deg) rotateY(360deg);}
 }
+.timer {
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: -30px 0 20px 0;
+    transition: color 0.1s ease;
+}
+.timer.preparing {
+    color: #ff3b3b;
+}
+
+.timer.ready {
+    color: #00c853;
+}
