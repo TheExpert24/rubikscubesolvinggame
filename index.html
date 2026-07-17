@@ -6,48 +6,18 @@
     <title>RubWeb</title>
     <link rel="stylesheet" href="style.css">
     <script src="timer.js" defer></script>
+    <script src="scramble.js" defer></script>
 </head>
 <body>
     <p>RubWeb</p>
-        <button class=button>Scramble</button>
-        <input type="text" class="moves" placeholder="Type the Cube Notations">
-        <button class=button2>Solution</button>
+    <button class="button">Scramble</button>
     <input type="text" class="moves" placeholder="Type the Cube Notations">
+    <button class="button2">Solution</button>
+    <input type="text" class="moves" placeholder="Type the Cube Notations">
+    
     <div class="scene">
-        <div class="cube">
-            <div class=" face front">
-                <div></div><div></div><div></div>
-                <div></div><div></div><div></div>
-                <div></div><div></div><div></div>
-            </div>
-            <div class="face back">
-                <div></div><div></div><div></div>
-                <div></div><div></div><div></div>
-                <div></div><div></div><div></div>
-            </div>
-            <div class="face right">
-                <div></div><div></div><div></div>
-                <div></div><div></div><div></div>
-                <div></div><div></div><div></div>
-            </div>
-            <div class="face left">
-                <div></div><div></div><div></div>
-                <div></div><div></div><div></div>
-                <div></div><div></div><div></div>
-            </div>
-            <div class="face top">
-                <div></div><div></div><div></div>
-                <div></div><div></div><div></div>
-                <div></div><div></div><div></div>
-            </div>
-            <div class="face bottom">
-                <div></div><div></div><div></div>
-                <div></div><div></div><div></div>
-                <div></div><div></div><div></div>
-            </div>
-        </div>
+        <div class="cube" id="cube"></div>
     </div>
     <div id="timer" class="timer">0.00</div>
 </body>
-
 </html>
